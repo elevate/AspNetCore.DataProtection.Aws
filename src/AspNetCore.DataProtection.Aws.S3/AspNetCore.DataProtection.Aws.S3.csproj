@@ -7,9 +7,6 @@
     <TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
     <AssemblyName>AspNetCore.DataProtection.Aws.S3</AssemblyName>
     <OutputType>Library</OutputType>
-    <AssemblyOriginatorKeyFile>../../shared.snk</AssemblyOriginatorKeyFile>
-    <SignAssembly>true</SignAssembly>
-    <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <PackageId>AspNetCore.DataProtection.Aws.S3</PackageId>
     <PackageTags>ASP.NET;AWS;DataProtection;netcore</PackageTags>
     <PackageReleaseNotes>Supports ASP.NET Core 2.2 and ASP.NET Core 3.0
