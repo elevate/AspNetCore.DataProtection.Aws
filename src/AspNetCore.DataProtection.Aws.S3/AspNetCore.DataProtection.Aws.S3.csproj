@@ -41,7 +41,7 @@ Requires NET Standard 2.0 and ASP.NET Core 2.0, or ASP.NET Core 3.0
 
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
-    <PackageReference Include="AWSSDK.S3" Version="[3.3.31.20,)" />
+    <PackageReference Include="AWSSDK.S3" Version="[3.7.305,)" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' != 'netcoreapp3.0'">
